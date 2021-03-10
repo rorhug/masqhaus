@@ -8,21 +8,21 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex flex-col items-center justify-center flex-1 px-20 text-center">
-        <h1 className="text-6xl font-bold">
+      <main className="flex flex-col items-center justify-center flex-1 px-4 text-center">
+        <h1 className="text-6xl mt-6 font-bold">
           Masqhaus
         </h1>
 
-        <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
+        <div className="flex flex-wrap items-center justify-around max-w-4xl mt-2 sm:w-full">
           <div
-            className="p-6 mt-6 text-left w-96"
+            className="p-6 mt-6 text-left max-w-xs"
           >
             <img src="/logo.jpeg" />
           </div>
 
-          <div className=" w-96">
+          <div className=" max-w-xs">
             <span
-              className="p-6 mt-6 text-left border w-96 rounded-xl block text-gray-300"
+              className="p-6 mt-6 text-left border max-w-xs rounded-xl block text-gray-300"
             >
               <h3 className="text-2xl font-bold mb-4">NFT Drop &rarr;</h3>
               <code className="p-3 font-mono text-xs bg-gray-100 rounded-md">
@@ -33,7 +33,7 @@ export default function Home() {
             <a
               href="https://www.instagram.com/masqhaus"
               target="_blank"
-              className="p-6 mt-6 text-left border w-96 rounded-xl block hover:text-blue-600 focus:text-blue-600"
+              className="p-6 mt-6 text-left border max-w-xs rounded-xl block hover:text-blue-600 focus:text-blue-600"
             >
               <h3 className="text-2xl font-bold">Instagram &rarr;</h3>
               <p className="mt-4 text-xl">
@@ -44,7 +44,7 @@ export default function Home() {
             <a
               href="mailto:freddie@masqhaus.com"
               target="_blank"
-              className="p-6 mt-6 text-left border w-96 rounded-xl block hover:text-blue-600 focus:text-blue-600"
+              className="p-6 mt-6 text-left border max-w-xs rounded-xl block hover:text-blue-600 focus:text-blue-600"
             >
               <h3 className="text-2xl font-bold">Contact &rarr;</h3>
               <p className="mt-4 text-xl">
