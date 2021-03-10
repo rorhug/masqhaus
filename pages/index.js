@@ -13,29 +13,29 @@ export default function Home() {
           Masqhaus
         </h1>
 
-        <div className="flex flex-wrap items-center justify-around max-w-4xl mt-2 sm:w-full">
+        <div className="flex md:flex-row flex-col items-center justify-around max-w-full mt-2 sm:w-full">
           <div
-            className="p-6 mt-6 text-left max-w-xs"
+            className="p-6 mt-6 text-left flex-1"
           >
             <img src="/logo.jpeg" />
           </div>
 
-          <div className="max-w-xs">
+          <div className="flex-1">
             <a
-              href="https://zora.co/masqhaus/1817"
+              href="https://zora.co/masqhaus/1823"
               target="_blank"
-              className="p-6 mt-6 text-left border max-w-xs rounded-xl block hover:text-blue-600 focus:text-blue-600 text-red-600"
+              className="p-6 mt-6 text-left border rounded-xl block hover:text-blue-600 focus:text-blue-600 text-red-600"
             >
               <h3 className="text-2xl font-bold mb-4">NFT Drop &rarr;</h3>
               <code className="p-3 font-mono italic text-xs bg-gray-100 rounded-md">
-                Techno Goddess - Zora#1817
+                Venus - Zora#1823
               </code>
             </a>
 
             <a
               href="https://twitter.com/masqhaus"
               target="_blank"
-              className="p-6 mt-6 text-left border max-w-xs rounded-xl block hover:text-blue-600 focus:text-blue-600"
+              className="p-6 mt-6 text-left border rounded-xl block hover:text-blue-600 focus:text-blue-600"
             >
               <h3 className="text-xl font-bold">Twitter &rarr;</h3>
               <p className="mt-4">
@@ -46,7 +46,7 @@ export default function Home() {
             <a
               href="https://www.instagram.com/masqhaus"
               target="_blank"
-              className="p-6 mt-6 text-left border max-w-xs rounded-xl block hover:text-blue-600 focus:text-blue-600"
+              className="p-6 mt-6 text-left border rounded-xl block hover:text-blue-600 focus:text-blue-600"
             >
               <h3 className="text-xl font-bold">Instagram &rarr;</h3>
               <p className="mt-4">
@@ -57,7 +57,7 @@ export default function Home() {
             <a
               href="mailto:freddie@masqhaus.com"
               target="_blank"
-              className="p-6 mt-6 text-left border max-w-xs rounded-xl block hover:text-blue-600 focus:text-blue-600"
+              className="p-6 mt-6 text-left border rounded-xl block hover:text-blue-600 focus:text-blue-600"
             >
               <h3 className="text-xl font-bold">Contact &rarr;</h3>
               <p className="mt-4">
