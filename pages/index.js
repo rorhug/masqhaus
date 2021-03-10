@@ -20,23 +20,25 @@ export default function Home() {
             <img src="/logo.jpeg" />
           </div>
 
-          <div className=" max-w-xs">
-            <span
-              className="p-6 mt-6 text-left border max-w-xs rounded-xl block text-gray-300"
+          <div className="max-w-xs">
+            <a
+              href="https://zora.co/masqhaus/1817"
+              target="_blank"
+              className="p-6 mt-6 text-left border max-w-xs rounded-xl block hover:text-blue-600 focus:text-blue-600 text-red-600"
             >
               <h3 className="text-2xl font-bold mb-4">NFT Drop &rarr;</h3>
-              <code className="p-3 font-mono text-xs bg-gray-100 rounded-md">
-                coming soon
+              <code className="p-3 font-mono italic text-xs bg-gray-100 rounded-md">
+                Techno Goddess - Zora#1817
               </code>
-            </span>
+            </a>
 
             <a
               href="https://www.instagram.com/masqhaus"
               target="_blank"
               className="p-6 mt-6 text-left border max-w-xs rounded-xl block hover:text-blue-600 focus:text-blue-600"
             >
-              <h3 className="text-2xl font-bold">Instagram &rarr;</h3>
-              <p className="mt-4 text-xl">
+              <h3 className="text-xl font-bold">Instagram &rarr;</h3>
+              <p className="mt-4">
                 Follow for pieces and updates.
               </p>
             </a>
@@ -46,11 +48,11 @@ export default function Home() {
               target="_blank"
               className="p-6 mt-6 text-left border max-w-xs rounded-xl block hover:text-blue-600 focus:text-blue-600"
             >
-              <h3 className="text-2xl font-bold">Contact &rarr;</h3>
-              <p className="mt-4 text-xl">
+              <h3 className="text-xl font-bold">Contact &rarr;</h3>
+              <p className="mt-4">
                 Email me for more information.
               </p>
-              <p className="mt-4 text-sm">
+              <p className="mt-4 text-xs">
                 freddie@masqhaus.com
               </p>
             </a>
@@ -60,7 +62,7 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className="flex items-center justify-center w-full h-16 border-t">
+      <footer className="flex items-center justify-center w-full mt-6 h-16 border-t">
         <p className="text-center text-gray-400">
           © 2021 Masqhaus
         </p>
