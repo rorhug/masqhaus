@@ -33,13 +33,24 @@ export default function Home() {
             </a>
 
             <a
+              href="https://twitter.com/masqhaus"
+              target="_blank"
+              className="p-6 mt-6 text-left border max-w-xs rounded-xl block hover:text-blue-600 focus:text-blue-600"
+            >
+              <h3 className="text-xl font-bold">Twitter &rarr;</h3>
+              <p className="mt-4">
+                Follow for updates.
+              </p>
+            </a>
+
+            <a
               href="https://www.instagram.com/masqhaus"
               target="_blank"
               className="p-6 mt-6 text-left border max-w-xs rounded-xl block hover:text-blue-600 focus:text-blue-600"
             >
               <h3 className="text-xl font-bold">Instagram &rarr;</h3>
               <p className="mt-4">
-                Follow for pieces and updates.
+                Follow for art.
               </p>
             </a>
 
